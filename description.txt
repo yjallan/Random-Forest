@@ -1,0 +1,8 @@
+In this Random Forest implementation, I have modified the Util.py file to get the information_gain.
+Decision_tree.py is modified to create a decision tree.
+In the Random Forset.py, I have implemented bootstrapping to generate random datasets to train.
+I've used the default value of the size of forest as 10.
+For testing, I've run it through all the trees and report the label chosen by majority of trees.
+
+Accuracy is 0.9605
+OOB error is 1 - 0.9605 = 0.0395
